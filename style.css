@@ -1,6 +1,7 @@
 .page{
     margin: auto;
     background-color: azure;
+    max-width: 500px;
 }
 h1{
     color:blue
