@@ -1,9 +1,114 @@
+.nav {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  background-color: #0481aa; 
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px;
+}
+
+.nav a {
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.nav a:hover {
+  background-color: #0481aa; 
+  color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px); 
+}
+
+.nav a.active {
+  background-color: #0481aa;
+  color: #fff;
+}
 .page{
-    margin: auto;
-    background-color: azure;
-    max-width: 500px;
-    text-align: center;
+   margin: auto;
+   background-color: azure;
+   font-family: sans-serif;
+   line-height: 1.2;
+   color: #333;
+   max-width: 1000px;
+   text-align: justify;
+   font-size: 20px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
 }
-h1{
-    color:blue
+.block1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
+.text{
+  font-size: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+}
+.text h2,.text h3{
+   font-weight: 600;
+   color: #0481aa;
+   margin-bottom: 10px;
+   
+
+}
+.image{
+   max-width: 25%;
+   max-height: 15%;
+   float: left;
+   padding: 6px;
+   border-radius: 15px;
+   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  
+   
+
+}
+.image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px; 
+  padding: 20px;
+}
+
+.box {
+  width: 30%; 
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.box:hover {
+  transform: translateY(-5px);
+}
+
+#image2 {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+#par2 {
+  padding: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
